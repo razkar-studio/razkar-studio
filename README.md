@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+- I'm a solo developer aiming for game development!
+- I like making random stuff that comes up on my mind as "cool"
+- I'm currently learning Rust and Bevy for game development.
+- I'm currently working on a game!
