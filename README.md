@@ -19,3 +19,10 @@ Here are some ideas to get you started:
 - I like making random stuff that comes up on my mind as "cool"
 - I'm currently learning Rust and Bevy for game development.
 - I'm currently working on a game!
+
+- Other than games, I also like making libraries that use zero external dependencies!
+- I don't like bad READMEs.
+- I am NOT suicidal, nor am I (this one is arguable) a masochist.
+- Thanks for checking me out!
+
+Cheers, RazkarStudio
