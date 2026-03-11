@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Razkar Studio — Systems thinker. Minimal builder. Zero overhead." />
+  <title>Razkar Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#" class="nav-logo">razkar<span class="accent">.</span>studio</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav-drawer" id="nav-drawer">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- SECTION 1 — HERO -->
+    <section class="hero" id="hero" aria-label="Flagship project">
+
+      <div class="glow glow-1" aria-hidden="true"></div>
+      <div class="glow glow-2" aria-hidden="true"></div>
+
+      <!-- Background shapes -->
+      <div class="bg-shapes" aria-hidden="true">
+        <svg class="shape shape-ring-lg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(124,58,237,0.13)" stroke-width="1.5"/>
+          <circle cx="100" cy="100" r="70" fill="none" stroke="rgba(167,139,250,0.07)" stroke-width="1"/>
+        </svg>
+        <svg class="shape shape-ring-sm" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(124,58,237,0.18)" stroke-width="1.5"/>
+        </svg>
+        <svg class="shape shape-cross-tl" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <line x1="20" y1="0" x2="20" y2="40" stroke="rgba(167,139,250,0.35)" stroke-width="1.5"/>
+          <line x1="0" y1="20" x2="40" y2="20" stroke="rgba(167,139,250,0.35)" stroke-width="1.5"/>
+        </svg>
+        <svg class="shape shape-cross-br" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <line x1="20" y1="0" x2="20" y2="40" stroke="rgba(167,139,250,0.25)" stroke-width="1.5"/>
+          <line x1="0" y1="20" x2="40" y2="20" stroke="rgba(167,139,250,0.25)" stroke-width="1.5"/>
+        </svg>
+        <svg class="shape shape-lines-r" viewBox="0 0 80 120" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="20"  x2="80" y2="20"  stroke="rgba(124,58,237,0.12)" stroke-width="1"/>
+          <line x1="0" y1="40"  x2="80" y2="40"  stroke="rgba(124,58,237,0.09)" stroke-width="1"/>
+          <line x1="0" y1="60"  x2="80" y2="60"  stroke="rgba(124,58,237,0.12)" stroke-width="1"/>
+          <line x1="0" y1="80"  x2="80" y2="80"  stroke="rgba(124,58,237,0.09)" stroke-width="1"/>
+          <line x1="0" y1="100" x2="80" y2="100" stroke="rgba(124,58,237,0.12)" stroke-width="1"/>
+        </svg>
+        <svg class="shape shape-diamond" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="25,2 48,25 25,48 2,25" fill="none" stroke="rgba(167,139,250,0.22)" stroke-width="1.5"/>
+        </svg>
+        <svg class="shape shape-dots" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="10" r="2" fill="rgba(167,139,250,0.3)"/>
+          <circle cx="30" cy="10" r="2" fill="rgba(167,139,250,0.2)"/>
+          <circle cx="50" cy="10" r="2" fill="rgba(167,139,250,0.3)"/>
+          <circle cx="10" cy="30" r="2" fill="rgba(167,139,250,0.2)"/>
+          <circle cx="30" cy="30" r="2" fill="rgba(167,139,250,0.35)"/>
+          <circle cx="50" cy="30" r="2" fill="rgba(167,139,250,0.2)"/>
+          <circle cx="10" cy="50" r="2" fill="rgba(167,139,250,0.3)"/>
+          <circle cx="30" cy="50" r="2" fill="rgba(167,139,250,0.2)"/>
+          <circle cx="50" cy="50" r="2" fill="rgba(167,139,250,0.3)"/>
+        </svg>
+        <svg class="shape shape-hex" viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,2 97,27 97,88 50,113 3,88 3,27" fill="none" stroke="rgba(124,58,237,0.14)" stroke-width="1.5"/>
+        </svg>
+      </div>
+
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <!-- Content -->
+      <div class="hero-inner fade-in">
+        <p class="hero-label">// featured project</p>
+        <h1 class="hero-project-name">vecli</h1>
+        <p class="hero-project-desc">A minimal zero&#8209;dependency CLI framework for Rust.</p>
+        <div class="hero-cta-group">
+          <a href="https://github.com/razkar-studio/vecli" target="_blank" rel="noopener noreferrer" class="hero-cta">
+            View on GitHub <span class="arrow" aria-hidden="true">&#8594;</span>
+          </a>
+          <a href="https://razkar-studio.github.io/vecli" target="_blank" rel="noopener noreferrer" class="hero-cta hero-cta-ghost">
+            Read the guide
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SECTION 2 — ABOUT -->
+    <section class="about section" id="about">
+      <div class="bg-shapes" aria-hidden="true">
+        <svg class="shape shape-arc-r" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 100 10 A 90 90 0 0 1 190 100" fill="none" stroke="rgba(124,58,237,0.12)" stroke-width="1.5"/>
+          <path d="M 100 25 A 75 75 0 0 1 175 100" fill="none" stroke="rgba(167,139,250,0.08)" stroke-width="1"/>
+        </svg>
+        <svg class="shape shape-cross-about" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <line x1="20" y1="0" x2="20" y2="40" stroke="rgba(167,139,250,0.2)" stroke-width="1.5"/>
+          <line x1="0" y1="20" x2="40" y2="20" stroke="rgba(167,139,250,0.2)" stroke-width="1.5"/>
+        </svg>
+        <svg class="shape shape-bracket" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="60,5 5,5 5,60" fill="none" stroke="rgba(124,58,237,0.22)" stroke-width="1.5" stroke-linecap="square"/>
+        </svg>
+        <svg class="shape shape-ring-about" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="55" fill="none" stroke="rgba(124,58,237,0.08)" stroke-width="1" stroke-dasharray="4 8"/>
+        </svg>
+      </div>
+
+      <div class="container fade-in">
+        <span class="section-label">// about</span>
+        <h2 class="section-heading">Razkar Studio</h2>
+        <div class="about-content">
+          <p>As a student, doing is the best way of learning. Some projects made under RazkarStudio are for learning purposes, and publishing gives satisfaction that the project can be for everyone to use. This is why projects need to be presentable, great READMEs, documentation.</p>
+          <p>Razkar Studio focuses on building minimal developer tools and libraries with zero external dependencies. The philosophy emphasizes simplicity, control, and lightweight tooling without unnecessary bloat.</p>
+        </div>
+        <div class="tagline-block">
+          <span class="tagline">Systems thinker. Minimal builder. Zero overhead.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 — PROJECTS -->
+    <section class="projects section" id="projects">
+      <div class="bg-shapes" aria-hidden="true">
+        <svg class="shape shape-hex-proj" viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,2 97,27 97,88 50,113 3,88 3,27" fill="none" stroke="rgba(124,58,237,0.1)" stroke-width="1.5"/>
+          <polygon points="50,18 81,35 81,80 50,97 19,80 19,35" fill="none" stroke="rgba(167,139,250,0.06)" stroke-width="1"/>
+        </svg>
+        <svg class="shape shape-dots-proj" viewBox="0 0 80 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="10" r="2" fill="rgba(167,139,250,0.25)"/>
+          <circle cx="30" cy="10" r="2" fill="rgba(167,139,250,0.18)"/>
+          <circle cx="50" cy="10" r="2" fill="rgba(167,139,250,0.25)"/>
+          <circle cx="70" cy="10" r="2" fill="rgba(167,139,250,0.18)"/>
+          <circle cx="10" cy="30" r="2" fill="rgba(167,139,250,0.18)"/>
+          <circle cx="30" cy="30" r="2" fill="rgba(167,139,250,0.25)"/>
+          <circle cx="50" cy="30" r="2" fill="rgba(167,139,250,0.18)"/>
+          <circle cx="70" cy="30" r="2" fill="rgba(167,139,250,0.25)"/>
+        </svg>
+        <svg class="shape shape-cross-proj" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <line x1="20" y1="0" x2="20" y2="40" stroke="rgba(167,139,250,0.2)" stroke-width="1.5"/>
+          <line x1="0" y1="20" x2="40" y2="20" stroke="rgba(167,139,250,0.2)" stroke-width="1.5"/>
+        </svg>
+        <svg class="shape shape-bracket-proj" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="0,55 55,55 55,0" fill="none" stroke="rgba(124,58,237,0.2)" stroke-width="1.5" stroke-linecap="square"/>
+        </svg>
+      </div>
+
+      <div class="container">
+        <span class="section-label fade-in">// projects</span>
+        <h2 class="section-heading fade-in">Open Source Work</h2>
+        <div class="projects-grid">
+
+          <!-- PROJECT CARD: vecli — duplicate this block to add more projects -->
+          <article class="project-card fade-in">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&#9672;</span>
+              <h3 class="card-name">vecli</h3>
+            </div>
+            <p class="card-desc">A minimal zero-dependency CLI framework for Rust. Build composable command-line tools without the overhead.</p>
+            <div class="card-tags">
+              <span class="tag">Rust</span>
+              <span class="tag">CLI</span>
+              <span class="tag">Zero-dep</span>
+            </div>
+            <a href="https://github.com/razkar-studio/vecli" target="_blank" rel="noopener noreferrer" class="card-link">
+              GitHub &#8594;
+            </a>
+          </article>
+
+          <!-- PROJECT CARD: CentiPM -->
+          <article class="project-card fade-in">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&#9672;</span>
+              <h3 class="card-name">CentiPM</h3>
+            </div>
+            <p class="card-desc">A simple executable/binary artifact manager written in Python. Manage your compiled tools without the ceremony.</p>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">CLI</span>
+              <span class="tag">Tooling</span>
+            </div>
+            <a href="https://github.com/razkar-studio/centipm" target="_blank" rel="noopener noreferrer" class="card-link">
+              GitHub &#8594;
+            </a>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&#9672;</span>
+              <h3 class="card-name">tinyobj</h3>
+            </div>
+            <p class="card-desc">A creative never-seen-before object notation format, parsed using Python. Clear intentions, working comments, minimal syntax.</p>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Data</span>
+              <span class="tag">Zero-dep</span>
+            </div>
+            <a href="https://github.com/razkar-studio/tinyobj" target="_blank" rel="noopener noreferrer" class="card-link">
+              GitHub &#8594;
+            </a>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&#9672;</span>
+              <h3 class="card-name">tinycolors</h3>
+            </div>
+            <p class="card-desc">A simple color library made in Python. Beautify your projects with almost no effort.</p>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">CLI</span>
+              <span class="tag">Zero-dep</span>
+              <span class="tag">Coloring</span>
+            </div>
+            <a href="https://github.com/razkar-studio/tinycolors" target="_blank" rel="noopener noreferrer" class="card-link">
+              GitHub &#8594;
+            </a>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&#9672;</span>
+              <h3 class="card-name">metrima</h3>
+            </div>
+            <p class="card-desc">A math library in Python. Fixed-point arithmetic made seamless</p>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Zero-dep</span>
+              <span class="tag">Math</span>
+            </div>
+            <a href="https://github.com/razkar-studio/metrima" target="_blank" rel="noopener noreferrer" class="card-link">
+              GitHub &#8594;
+            </a>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&#9672;</span>
+              <h3 class="card-name">tinygenkey</h3>
+            </div>
+            <p class="card-desc">A secure random key generator using os.urandom() made in Python. Generating and managing keys cannot get easier than this.</p>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Secure</span>
+              <span class="tag">Zero-dep</span>
+            </div>
+            <a href="https://github.com/razkar-studio/pypi-tinygenkey" target="_blank" rel="noopener noreferrer" class="card-link">
+              GitHub &#8594;
+            </a>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&#9672;</span>
+              <h3 class="card-name">quickeval-cpp</h3>
+            </div>
+            <p class="card-desc">A lightweight mathematical evaluator, taking a string input and returning a calculated numerical result. Made from scratch written in C++.</p>
+            <div class="card-tags">
+              <span class="tag">C++</span>
+              <span class="tag">Math</span>
+              <span class="tag">Zero-dep</span>
+            </div>
+            <a href="https://github.com/razkar-studio/quickeval-cpp" target="_blank" rel="noopener noreferrer" class="card-link">
+              GitHub &#8594;
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4 — SKILLS -->
+    <section class="skills section" id="skills">
+      <div class="bg-shapes" aria-hidden="true">
+        <svg class="shape shape-ring-skills" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="80" cy="80" r="74" fill="none" stroke="rgba(124,58,237,0.1)" stroke-width="1" stroke-dasharray="6 10"/>
+          <circle cx="80" cy="80" r="55" fill="none" stroke="rgba(167,139,250,0.06)" stroke-width="1" stroke-dasharray="3 8"/>
+        </svg>
+        <svg class="shape shape-lines-skills" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="10" x2="120" y2="10" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+          <line x1="0" y1="30" x2="120" y2="30" stroke="rgba(124,58,237,0.07)" stroke-width="1"/>
+          <line x1="0" y1="50" x2="120" y2="50" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+          <line x1="0" y1="70" x2="120" y2="70" stroke="rgba(124,58,237,0.07)" stroke-width="1"/>
+        </svg>
+        <svg class="shape shape-diamond-skills" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="30,2 58,30 30,58 2,30" fill="none" stroke="rgba(167,139,250,0.18)" stroke-width="1.5"/>
+          <polygon points="30,14 46,30 30,46 14,30" fill="none" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+        </svg>
+      </div>
+
+      <div class="container fade-in">
+        <span class="section-label">// skills</span>
+        <h2 class="section-heading">Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-badge">Rust</div>
+          <div class="skill-badge">Python</div>
+          <div class="skill-badge">C++</div>
+          <div class="skill-badge">Arduino</div>
+          <div class="skill-badge">CLI tools</div>
+          <div class="skill-badge">Backend systems</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-brand">razkar<span class="accent">.</span>studio</div>
+      <div class="footer-links">
+        <a href="https://github.com/razkar-studio" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a id="email-link" href="#">razkar.studio&#64;proton.me</a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> Razkar Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
