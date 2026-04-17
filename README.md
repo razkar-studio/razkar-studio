@@ -15,12 +15,11 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- I'm a solo developer aiming for game development!
+- I'm a solo developer aiming for backend development of any sorts!
 - I like making random stuff that comes up on my mind as "cool"
-- I'm currently learning Rust and Bevy for game development.
-- I'm currently working on a game!
+- Game development is in mind too.
 
-- Other than games, I also like making libraries that use zero external dependencies!
+- I like making libraries that use zero external dependencies!
 - I don't like bad READMEs.
 - I am NOT suicidal, nor am I (this one is arguable) a masochist.
 - Thanks for checking me out!
