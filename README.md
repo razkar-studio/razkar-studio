@@ -30,6 +30,13 @@ I'm RazkarStudio, and I'm just one guy! Call me Razkar. I'm a programmer that sp
 - Obsidian for notes and everything notes
 - Syncthing and LocalSend for their purposes, Git for Git
 
+### 💬 Languages I've Written In
+
+- 🦀 Rust
+- 🐍 Python
+- 💎 C/C++
+- 🤠 Odin
+
 ### ✨ Fun Facts
 
 - HTML is not a programming language
